@@ -71,3 +71,35 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 419px) 
+
+{
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+
+    float: none;
+    width: 20%;
+    margin: auto;
+    padding: 20px 0;
+    
+  }
+
+
+
+  
+
+  
+
+  
+
+  
+
+}
