@@ -84,6 +84,7 @@ img {
 
 @media screen and (max-width: 419px) 
 
+
 {
   #lezioni .row>.left,
   #lezioni .row>.right,
@@ -92,13 +93,14 @@ img {
   #steps .row>.right,
   #why .row>.first,
   #why .row>.second,
-  #why .row>.third{
+  #why .row>.third {
 
-    float: none;
-    width: 100%;
+    
+    width: 30%;
     margin: auto;
     padding: 20px 0;
     display: block;
+    float: none;
     /* background-color: white; */
     
   }
@@ -119,10 +121,11 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third,
-  #lezioni .row>.left,
-  #lezioni .row>.right {
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right  {
+
     background-color: lightgray;
-    margin-top: 0px;
     border-bottom: 1px solid black;
   }
 
@@ -131,11 +134,13 @@ img {
   }
 
   .container.grey {
+
     background-color: white;
+    
   }
-}
-
-
-
 
 }
+
+
+
+
