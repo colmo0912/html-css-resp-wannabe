@@ -96,13 +96,18 @@ img {
   #why .row>.third {
 
     
-    width: 30%;
+    width: 70%;
     margin: auto;
     padding: 20px 0;
     display: block;
     float: none;
     /* background-color: white; */
     
+  }
+
+  .row {
+
+    width: 100%;
   }
 
   .row h1 , .row h3{
